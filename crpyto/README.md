@@ -28,6 +28,7 @@ $
 ```
 Google quickly tells us that each line is from Virgil's Aeneid:
 
+```
  7.bin si bellum finire manu si pellere Teucros         Book 11 line 116
  9.bin quattuor ex omni delectae classe carinae         Book  4 line 115
 29.bin olli sensit enim simulata mente locutam          Book  4 line 105
@@ -40,11 +41,11 @@ Google quickly tells us that each line is from Virgil's Aeneid:
 82.bin sic fatus meritos aris mactauit honores          Book  3 line 118
 93.bin debita complerant cum Turni iniuria Matrem       Book  9 line 108
 97.bin quandoquidem Ausonios coniungi foedere Teucris   Book 10 line 105
-
+```
 The Book and line number are significant.
 
 Look up the line number as an ASCII char:
-
+```
 Line   ASCII
  98 -> b
 100 -> d
@@ -54,10 +55,10 @@ Line   ASCII
 116 -> t
 118 -> v
 121 -> y
-
+```
 Then sort them by the book number followed by line number, and you get
 the resulting twelve letter English word relevant to the challenge:
-
+```
  1, 100: d
  2, 105: i
  3, 118: v
@@ -70,5 +71,5 @@ the resulting twelve letter English word relevant to the challenge:
 10, 105: i
 11, 116: t
 12, 121: y
-
-divisibility.
+```
+Gives *divisibility*.
